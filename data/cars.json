@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2019,
+    "price": 18000,
+    "owner": "Carlos Diaz",
+    "color": "Blue",
+    "is_available": false
+  },
+  {
+    "id": 3,
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2022,
+    "price": 40000,
+    "owner": "Maria Lopez",
+    "color": "Yellow",
+    "is_available": true
+  }
+]
