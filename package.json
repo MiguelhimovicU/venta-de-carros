@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
+    "dayjs": "^1.11.13",
     "express": "^4.21.1",
     "joi": "^17.13.3"
   }

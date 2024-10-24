@@ -1,12 +1,12 @@
-// index.js
-const express = require('express');
+import express from 'express';
+import { routerCars } from './routes/cars.js'; 
+
 const app = express();
-const carRoutes = require('./routes/cars');
 
-app.use(express.json());  // Para parsear JSON en las peticiones
+app.use(express.json()); 
 
-// Usar las rutas de los carros
-app.use('/api', carRoutes);
+// Invocar las rutas de carros
+routerCars(app); 
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

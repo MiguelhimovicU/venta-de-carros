@@ -1,22 +1,27 @@
 [
   {
-    "id": 2,
-    "brand": "Honda",
-    "model": "Civic",
-    "year": 2019,
-    "price": 18000,
-    "owner": "Carlos Diaz",
-    "color": "Blue",
-    "is_available": false
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "price": 19000,
+    "owner": "John Smith",
+    "color": "Red",
+    "is_available": true,
+    "ip_address": "::1",
+    "created_at": "21:08 23-10-2024",
+    "updated_at": "21:08 23-10-2024"
   },
   {
-    "id": 3,
-    "brand": "Ford",
-    "model": "Mustang",
-    "year": 2022,
-    "price": 40000,
-    "owner": "Maria Lopez",
-    "color": "Yellow",
-    "is_available": true
+    "id": 2,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "price": 22000,
+    "owner": "John Smith",
+    "color": "Red",
+    "is_available": true,
+    "ip_address": "::1",
+    "created_at": "21:08 23-10-2024"
   }
 ]
